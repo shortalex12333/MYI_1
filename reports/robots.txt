@@ -1,0 +1,82 @@
+# Robots.txt for My Yachts Insurance
+# Upload this file to your WordPress root directory: /public_html/robots.txt
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin and system directories
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/cache/
+Disallow: /wp-json/
+
+# Disallow search and filter URLs
+Disallow: /*?s=
+Disallow: /*?p=
+Disallow: /search/
+Disallow: /?attachment_id=
+
+# Disallow tracking and feed URLs
+Disallow: /trackback/
+Disallow: /feed/
+Disallow: /comments/feed/
+Disallow: */feed/
+Disallow: */trackback/
+
+# Disallow duplicate content
+Disallow: */page/*
+Disallow: */tag/*
+Disallow: */category/*/page/
+
+# Allow specific important resources
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes/celeste7-modern/style.css
+Allow: /wp-content/themes/celeste7-modern/js/
+
+# Sitemap location (update after installing SEO plugin)
+Sitemap: https://myyachtsinsurance.com/sitemap_index.xml
+Sitemap: https://myyachtsinsurance.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+# Crawl-delay: 1
+
+# ===================================
+# Search Engine Specific Rules
+# ===================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# ===================================
+# Block Bad Bots (Optional)
+# ===================================
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# ===================================
+# IMPORTANT NOTES:
+# ===================================
+# 1. Test your robots.txt at: https://www.google.com/webmasters/tools/robots-testing-tool
+# 2. After uploading, verify at: https://myyachtsinsurance.com/robots.txt
+# 3. Submit sitemap in Google Search Console
+# 4. Monitor crawl stats regularly
+# 5. WordPress may override this file - check Settings > Reading > Discourage search engines

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap Template for My Yachts Insurance
+
+  INSTRUCTIONS:
+  1. This is a template - WordPress SEO plugins like Yoast SEO or Rank Math generate this automatically
+  2. If not using a plugin, update this file with your actual pages and posts
+  3. Upload to root directory: /public_html/sitemap.xml
+  4. Submit to Google Search Console and Bing Webmaster Tools
+
+  Generate dynamic sitemap using:
+  - Yoast SEO plugin (Recommended): https://wordpress.org/plugins/wordpress-seo/
+  - Rank Math SEO: https://wordpress.org/plugins/seo-by-rank-math/
+  - Google XML Sitemaps: https://wordpress.org/plugins/google-sitemap-generator/
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://myyachtsinsurance.com/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://myyachtsinsurance.com/about/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://myyachtsinsurance.com/coverage/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://myyachtsinsurance.com/get-quote/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://myyachtsinsurance.com/blog/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://myyachtsinsurance.com/contact/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Posts - Add your actual blog post URLs here -->
+  <url>
+    <loc>https://myyachtsinsurance.com/superyacht-insurance-guide-2024/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!--
+    RECOMMENDED: Use WordPress SEO Plugin for Automatic Sitemap Generation
+
+    Yoast SEO: Generates sitemap at /sitemap_index.xml
+    Rank Math: Generates sitemap at /sitemap_index.xml
+
+    These plugins automatically update the sitemap when you publish new content.
+  -->
+
+</urlset>
